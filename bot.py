@@ -16,9 +16,9 @@ def setup_logging():
 
 
 def start(update: Update, context: CallbackContext):
-    update.effective_message.reply_text("شایگاننننننننن")
+    update.effective_message.reply_text("Hi, welcome to my bot!, this is a simple bot when u can download song only with /spotify [url]. Thank you for using me and happy downloading!")
     context.bot.send_message(
-        chat_id=update.effective_chat.id, text="/spotify [url]"
+        chat_id=update.effective_chat.id, text="join here for download songs: @spotifymusicforfree"
     )
 
 
